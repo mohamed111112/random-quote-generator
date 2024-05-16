@@ -1,3 +1,5 @@
+console.log("JavaScript file loaded successfully!");
+
 var changeBtn = document.getElementById("changeBtn");
 var quoteOutput = document.getElementById("quoteOutput");
 var authorOutput = document.getElementById("authorOutput");
@@ -24,5 +26,6 @@ function generateQuote() {
 }
 
 changeBtn.addEventListener("click", generateQuote);
+
 
 
